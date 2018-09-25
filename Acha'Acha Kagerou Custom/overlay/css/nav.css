@@ -25,9 +25,9 @@ nav > .container {
   color: #ddd;
   fill: #ddd;
   opacity: 0;
-  transition: opacity 200ms ease;
+  transition:  ease-in-out all 1s;
 }
-nav:hover > .container {
+body:hover > .container {
   opacity: 1;
 }
 
