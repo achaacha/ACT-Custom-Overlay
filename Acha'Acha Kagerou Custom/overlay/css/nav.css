@@ -27,7 +27,7 @@ nav > .container {
   opacity: 0;
   transition:  ease-in-out all 1s;
 }
-body:hover + .container {
+nav:hover > .container {
   opacity: 1;
 }
 
