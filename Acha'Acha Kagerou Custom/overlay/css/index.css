@@ -33,7 +33,6 @@ body::after {
   border: 8px solid; /* Resize handle size is controlled by plugin; no ctrl */
   border-color: transparent rgba(127, 127, 127, 0.3) rgba(127, 127, 127, 0.3) transparent;
   background: rgba(127, 127, 127, 0.1);
-  transition: all 0.5s;
 }
 body.disable-handle::after {
   display: none;
