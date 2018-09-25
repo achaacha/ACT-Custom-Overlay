@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Roboto', 'Source Han Sans', 'Meiryo UI', '맑은 고딕', sans-serif;
+  margin: 0rem !important; /* for shadow */
+  height: calc(100% - 0rem * 2);
+
+  user-select: none;
+  -webkit-user-select: none;
+}
+body.overlay {
+  margin-top: 0.5rem !important;
+}
+/* Resize handle */
+body::after {
+  display: block;
+  content: '';
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  width: 0;
+  height: 0;
+
+  border: 8px solid; /* Resize handle size is controlled by plugin; no ctrl */
+  border-color: transparent rgba(127, 127, 127, 0.3) rgba(127, 127, 127, 0.3) transparent;
+  background: rgba(127, 127, 127, 0.1);
+}
+body.disable-handle::after {
+  display: none;
+}
+
+/* Client Restrictors */
+body.legacy-plugin .supports-end {
+  display: none !important;
+}
+body:not(.overlay) .overlay-only {
+  display: none !important;
+}
+body.overlay .browser-only {
+  display: none !important;
+}
+body:not(.ws) .ws-only {
+  display: none !important;
+}
+body.https .unsecure-only {
+  display: none !important;
+}
+
+/* Shared classes */
+
+.text-right.text-right {
+  text-align: right;
+}
+.hidden.hidden {
+  display: none;
+}
+
+mark {
+  background: none;
+  color: #26c6da;
+}
+a {
+  color: #26c6da;
+}
+
+/* Locale */
+
+.lang {
+  display: none;
+}
+
+html.ko .lang.ko,
+html.ja .lang.ja,
+html.en .lang.en,
+html.de .lang.de,
+html.cn .lang.cn,
+html.fr .lang.cn {
+  display: block;
+}
+
+html.ko span.lang.ko,
+html.ja span.lang.ja,
+html.en span.lang.en,
+html.de span.lang.de,
+html.cn span.lang.cn,
+html.fr span.lang.fr {
+  display: inline;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+  background: none;
+
+  margin-right: calc(0rem * -1);
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(63, 63, 63, 0.5);
+  border-radius: 0;
+}
+::-webkit-scrollbar-corner {
+  background: none;
+}
