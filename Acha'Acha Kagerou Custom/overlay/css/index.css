@@ -4,18 +4,19 @@
 
 html {
   height: 100%;
+  opacity: 0.5;
 }
 body {
   font-family: 'Roboto', 'Source Han Sans', 'Meiryo UI', '맑은 고딕', sans-serif;
   margin: 0rem !important; /* for shadow */
   height: calc(100% - 0rem * 2);
   user-select: none;
-  opacity: .5 !important;
+  opacity: 0.5 !important;
   -webkit-user-select: none;
   transition: all 0.5s;
 }
 
-body:hover {opacity: 1 !important;}
+body:hover, html:hover {opacity: 1 !important;}
 
 body.overlay {
   margin-top: 0.5rem !important;
