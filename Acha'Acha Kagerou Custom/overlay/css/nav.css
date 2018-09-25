@@ -189,7 +189,7 @@ nav:hover > .container {
 }
 
 .dropdown {
-  display: none;
+  display: block;
   position: absolute;
   top: calc(0rem + 2rem);
 
