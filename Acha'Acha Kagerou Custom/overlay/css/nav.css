@@ -27,8 +27,8 @@ nav > .container {
   color: #ddd;
   fill: #ddd;
 
-  opacity: 1;
-  transition: opacity 200ms ease;
+  opacity: 0;
+  transition: opacity all 1s ease;
 }
 nav:hover > .container {
   opacity: 1;
