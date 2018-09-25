@@ -7,8 +7,10 @@ html {
 }
 body {
   font-family: 'Roboto', 'Source Han Sans', 'Meiryo UI', '맑은 고딕', sans-serif;
+  opacity: .5;
   margin: 0rem !important; /* for shadow */
   height: calc(100% - 0rem * 2);
+  
   user-select: none;
   -webkit-user-select: none;
 }
@@ -21,7 +23,6 @@ body.overlay {
 body::after {
   display: block;
   content: '';
-  opacity: .5;
 
   position: fixed;
   right: 0;
@@ -37,8 +38,6 @@ body::after {
 body.disable-handle::after {
   display: none;
 }
-
-body:hover::after {opacity: 1;}
 
 /* Client Restrictors */
 body.legacy-plugin .supports-end {
