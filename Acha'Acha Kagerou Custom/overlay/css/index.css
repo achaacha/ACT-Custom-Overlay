@@ -9,14 +9,10 @@ body {
   font-family: 'Roboto', 'Source Han Sans', 'Meiryo UI', '맑은 고딕', sans-serif;
   margin: 0rem !important; /* for shadow */
   height: calc(100% - 0rem * 2);
-  opacity: .5;
+
   user-select: none;
   -webkit-user-select: none;
-   transition: all 1s ease;
 }
-
-body:hover {opacity: 1;}
-
 body.overlay {
   margin-top: 0.5rem !important;
 }
