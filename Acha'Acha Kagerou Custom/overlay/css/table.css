@@ -130,7 +130,6 @@
 
 main {
   font-size: 0.75rem;
-  opacity: .5;
 
   position: relative;
   height: 100%;
@@ -142,12 +141,9 @@ main {
   text-shadow: 0 0 0.125em rgba(0, 0, 0, 1);
 
   transition: height 200ms ease;
-  transition: all 0.5s;
 
   z-index: 0;
 }
-
-main:hover {opacity: 1;}
 
 .overlay main {
   max-height: calc(100% - (0rem / 2) - 2.5rem);
