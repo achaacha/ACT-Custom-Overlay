@@ -1,6 +1,6 @@
 jQuery.noConflict();
-$(document).ready(function(){
-    $("body").hover(function(){
-        $("body").fadeToggle(100);
-    });
+jQuery(document).ready(function($){
+	$("nav").hover(function() {
+		$("nav").fadeToggle(1000);
+	})
 });
