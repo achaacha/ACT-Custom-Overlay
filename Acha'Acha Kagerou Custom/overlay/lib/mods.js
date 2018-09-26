@@ -1,5 +1,6 @@
-jQuery(document).ready(function(){
-	jQuery("").hover(function() {
-		jQuery("").fadeToggle();
+var jq = $.noConflict();
+jq(document).ready(function(){
+	jq("").hover(function() {
+		jq("").fadeToggle();
 	});
 });
