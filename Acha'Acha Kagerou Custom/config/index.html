@@ -1,1 +1,85 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title> Acha - Settings </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,700">
+    <link rel="stylesheet" href="../overlay/css/reset.css?v=daze-days" />
+    <link rel="stylesheet" href="index.css?v=daze-days" />
+    <link rel="stylesheet" href="media.css?v=daze-days" />
+    <link rel="stylesheet" href="dialog.css?v=daze-days" />
+    <link rel="stylesheet" href="../share/css/job-icons.css?v=daze-days" />
+    <script src="lib/sortable-1.7.0-min.js"> </script>
+    <script src="../share/lib/util.js?v=daze-days"> </script>
+    <script src="../share/lib/locale.js?v=daze-days"> </script>
+    <script src="../share/lib/config.js?v=daze-days"> </script>
+    <script src="lib/dialog.js?v=daze-days"> </script>
+    <script src="lib/ui.js?v=daze-days"> </script>
+    <script src="lib/tabconfig.js?v=daze-days"> </script>
+    <script src="lib/import-export.js?v=daze-days"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js"> </script>
+<template id="template-tab">
+      <li class="draggable">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+             viewBox="0 0 24 24" class="icon">
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+        </svg>
+        <label> ... </label>
+      </li>
+    </template>
+    <template id="template-pane">
+      <div class="tabconfig-pane">
+        <article>
+          <p class="control half">
+            <label data-render="title.label"
+                   data-locale="ui.config.tab.title">
+              제목
+            </label>
+            <input type="text" data-render="title.input"
+                   style="width: 3rem;" />
+          </p><p class="control half">
+            <label data-render="width.label"
+                   data-locale="ui.config.tab.width">
+              24인 모드
+            </label>
+            <select data-render="width.input">
+              <option data-locale="ui.config.tab.widths.1"
+                      value="1"> 끔 </option>
+              <option data-locale="ui.config.tab.widths.2"
+                      value="2"> 2명씩 </option>
+              <option data-locale="ui.config.tab.widths.3"
+                      value="3"> 3명씩 </option>
+            </select>
+          </p>
+          <p class="control">
+            <label data-render="sort.label"
+                   data-locale="ui.config.tab.sortby">
+              정렬 기준
+            </label>
+            <select data-render="sort.input">
+              <option> ... </option>
+            </select>
+          </p>
+        </article>
+        <div class="tabconfig-list-container">
+          <ul class="tabconfig-list">
+            <li class="header"
+                data-locale="ui.config.tab.available">
+              사용할 수 있는 항목
+            </li>
+            <ul data-control="columns.available">
+            </ul>
+          </ul>
+          <ul class="tabconfig-list">
+            <li class="header"
+                data-locale="ui.config.tab.configured">
+              설정된 항목 (권장: 이름 제외 6개까지)
+            </li>
+            <ul data-control="columns.used">
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </template>
+</html>
