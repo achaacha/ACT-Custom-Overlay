@@ -199,19 +199,19 @@
 
         window.open(
           '../config/index.html',
-          'kagerou - Settings',
+          'Acha - Settings',
           `width=${800 * resize},height=${600 * resize}`
         )
       }
     }, {
-      name: 'donate',
+      name: 'radio',
       callback: _ => {
         let resize = window.config.get('style.resize-factor')
 
         window.open(
-          'https://hibiya.moe/donate',
-          'hibiya.moe - donate',
-          `width=${800 * resize},height=${600 * resize}`
+          '../config/radio.html',
+          'Acha - Settings',
+          `width=${560 * resize},height=${315 * resize}`
         )
       }
     }, {
