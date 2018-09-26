@@ -1,5 +1,5 @@
-jQuery(document).ready(function($){
-	$("").hover(function() {
-		$("").fadeToggle();
+jQuery(document).ready(function(){
+	jQuery("").hover(function() {
+		jQuery("").fadeToggle();
 	});
 });
