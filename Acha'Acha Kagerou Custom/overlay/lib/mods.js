@@ -1,5 +1,5 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
 	$("nav").hover(function() {
-		$("nav > .container").fadeToggle("slow");
+		$("nav > .container").fadeToggle();
 	})
 });
