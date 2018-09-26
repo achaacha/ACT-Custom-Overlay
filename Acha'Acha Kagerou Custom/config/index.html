@@ -220,5 +220,45 @@ document.addEventListener('DOMContentLoaded', _ => {
             </select>
           </p>
         </article>
-        </main>
+        
+      <article>
+          <h3 data-locale="ui.config.general.footer._"> 하단 바 항목 </h3>
+          <p class="control">
+            <label for="input-footer-rank"
+                   data-locale="ui.config.general.footer.rank">
+              현재 순위
+            </label>
+            <input type="checkbox" id="input-footer-rank"
+                   data-type="boolean"
+                   data-config-key="footer.rank" />
+          </p>
+          <p class="control">
+            <label for="input-footer-rdps"
+                   data-locale="ui.config.general.footer.rdps">
+              RDPS
+            </label>
+            <input type="checkbox" id="input-footer-rdps"
+                   data-type="boolean"
+                   data-config-key="footer.rdps" />
+          </p>
+          <p class="control">
+            <label for="input-footer-rhps"
+                   data-locale="ui.config.general.footer.rhps">
+              RHPS
+            </label>
+            <input type="checkbox" id="input-footer-rhps"
+                   data-type="boolean"
+                   data-config-key="footer.rhps" />
+          </p>
+          <p class="control">
+            <label for="input-footer-recover"
+                   data-locale="ui.config.general.footer.recover">
+              총 받은 힐 / 받은 대미지 🔄
+            </label>
+            <input type="checkbox" id="input-footer-recover"
+                   data-type="boolean"
+                   data-config-key="footer.recover" />
+          </p>
+        </article>
+       </main>
 </html>
