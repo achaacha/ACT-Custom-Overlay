@@ -93,7 +93,7 @@ button, .button {
 
   border-radius: 0.1rem;
 
-  color: #0097A7; /* cyan 500 */
+  color: #fff; /* cyan 500 */
   background: none;
 
   transition: background 200ms ease;
