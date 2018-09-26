@@ -1,7 +1,7 @@
 'use strict'
 
-const VERSION = '0.7.22'
-const CODENAME = 'Never-Lost Word'
+const VERSION = '0.1.01'
+const CODENAME = 'The Beginning'
 
 const CONFIG_DEFAULT = {
   lang: 'ko',
