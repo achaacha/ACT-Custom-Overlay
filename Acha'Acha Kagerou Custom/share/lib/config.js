@@ -1,6 +1,6 @@
 'use strict'
 
-const VERSION = '0.1.01'
+const VERSION = '0.0.01'
 const CODENAME = 'The Beginning'
 
 const CONFIG_DEFAULT = {
