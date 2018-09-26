@@ -91,7 +91,7 @@
 /* Colors */
 .gauge {
   background: #444;
-  opacity: 0;
+  opacity: 1;
 }
 .class-gld .gauge,
 .class-gla .gauge, .class-pld .gauge { background: rgb(21, 28, 100); }
@@ -144,6 +144,7 @@ main {
 
   z-index: 0;
 }
+
 .overlay main {
   max-height: calc(100% - (0rem / 2) - 2.5rem);
 }
@@ -159,18 +160,12 @@ main > ul {
 }
 #background {
   position: absolute;
-  top: 0;
-  left: 0;
-
   width: 100%;
   height: 100%;
   z-index: 0;
-
-  background: ;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: url('https://78.media.tumblr.com/f88fb5c82065be2ed889cfa2bcd2979b/tumblr_pbi435A6cw1whahvko1_500.gif');
   background-size: cover;
   background-position: center;
-
   opacity: 1;
   -webkit-filter: ;
   filter: ;
