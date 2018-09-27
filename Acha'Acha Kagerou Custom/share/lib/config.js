@@ -16,7 +16,7 @@ const CONFIG_DEFAULT = {
     'nav-fg': '#ddd',
     'header-bg': 'rgba(0, 0, 0, 0.5)',
     'dropdown-bg': 'rgba(0, 0, 0, 0.95)',
-    'dropdown-fg': '#ddd',
+    'dropdown-fg': '#000',
     'content-bg': '', // URL
     'content-bg-color': 'rgba(0, 0, 0, 0.5)',
     'content-bg-opacity': 1,
