@@ -42,12 +42,12 @@ const CONFIG_DEFAULT = {
         'i.icon',
         'deal.per_second',
         'deal.pct',
-		    'deal.total',
-		    'etc.death',
+	'deal.total',
+	'etc.death',
         'i.name',
         'deal.critical',
         'deal.direct',
-		    'deal.crit_direct'
+	'deal.crit_direct'
       ]
     }, {
       id: 1,
