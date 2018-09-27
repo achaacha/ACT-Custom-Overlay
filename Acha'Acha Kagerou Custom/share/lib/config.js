@@ -133,7 +133,7 @@ const CONFIG_DEFAULT = {
   },
   color: {
     'gauge-default': '#444',
-    'gauge-opacity': '1',
+    'gauge-opacity': '0',
     'position-tank': 'rgb(33, 150, 243)',
     'position-deal': 'rgb(244, 67, 54)',
     'position-heal': 'rgb(139, 195, 74)',
