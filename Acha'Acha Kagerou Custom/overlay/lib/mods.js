@@ -1,4 +1,4 @@
-var jq = $.noConflict();
+var jq = jQuery.noConflict();
 
 
 jq(document).ready(function(){
