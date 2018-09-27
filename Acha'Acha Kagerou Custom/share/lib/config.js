@@ -131,7 +131,7 @@ const CONFIG_DEFAULT = {
   },
   color: {
     'gauge-default': '#444',
-    'gauge-opacity': '0',
+    'gauge-opacity': '1',
     'position-tank': 'rgb(33, 150, 243)',
     'position-deal': 'rgb(244, 67, 54)',
     'position-heal': 'rgb(139, 195, 74)',
@@ -183,6 +183,20 @@ const CONFIG_DEFAULT = {
     rhps: false,
     recover: false
   },
+  custom_css: `
+/* 여기에 사용자 스타일시트를 작성합니다.
+ * CSS가 뭔지 모르시면 무시하셔도 되며, 자세한 구조는 소스 코드를
+ * 직접 참조해주세요.
+ * var()로 설정값 일부를 가져올 수 있습니다. */
+
+/* Write User-stylesheet here.
+ * If you don't know what CSS is, you can ignore this section.
+ * For details, please refer source code or DevTools directly.
+ * some config value can be loaded by var(). */
+
+/* .gauge { -webkit-filter: blur(0.2rem); } */
+`
+}
 
 const CONFIG_KEY_SHOULD_OVERRIDE = [
   'tabs'
