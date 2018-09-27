@@ -4,7 +4,7 @@ const VERSION = '0.0.01'
 const CODENAME = 'The Beginning'
 
 const CONFIG_DEFAULT = {
-  lang: 'ko',
+  lang: 'en',
   style: {
     // body
     'resize-factor': 1,
