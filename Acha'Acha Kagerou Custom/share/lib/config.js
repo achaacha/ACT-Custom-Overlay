@@ -12,7 +12,7 @@ const CONFIG_DEFAULT = {
     'body-font': "'Roboto', 'Source Han Sans', 'Meiryo UI', '맑은 고딕', sans-serif",
     // header / ui
     'nav-opacity': 1,
-    'nav-bg': 'rgba(31, 31, 31, 0.9)',
+    'nav-bg': 'rgba(0, 0, 0, 0.9)',
     'nav-fg': '#ddd',
     'header-bg': 'rgba(0, 0, 0, 0.5)',
     'dropdown-bg': 'rgba(31, 31, 31, 0.95)',
