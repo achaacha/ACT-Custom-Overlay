@@ -69,6 +69,10 @@ b {
   display: none;
 }
 
+li[data-page=style],li[data-page=color],li[data-page=width],li[data-page=style],li[data-page=etc],li[data-page=info] { 
+  display:none; 
+}
+
 input[type=text], select {
   text-align: right;
   background: none;
@@ -233,8 +237,6 @@ main h3 {
 
   margin: 1rem 0.5rem;
 }
-
-section {display:none;}
 
 main > section {
   display: none;
