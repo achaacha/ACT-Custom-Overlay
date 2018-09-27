@@ -201,7 +201,6 @@ main > ul {
 #init-menu > ul li {
   position: relative;
   width: 5rem;
-
   margin: 0.25rem;
   padding: 0 0.25rem;
   height: calc(100% - 0.5rem);
@@ -210,6 +209,7 @@ main > ul {
 }
 
 #init-menu > ul li.button {
+  float: right;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
   cursor: pointer;
@@ -256,7 +256,7 @@ main > ul {
 
   padding: 15px 15px;
   font-family: 'Poiret One';
-  font-size: 15px;
+  font-size: 20px;
 }
 #init-menu > ul li .icon {
   width: 2.25rem !important;
