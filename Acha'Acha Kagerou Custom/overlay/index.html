@@ -130,18 +130,12 @@ window.addEventListener('load', e => {
   <body style="overflow:hidden" class="standby">
     <div class="splash">
       <div>
-        This rip failed
+        Oh god Acha messed up somewhere.....
         <br />
-        See <a href="../outdated">here</a> for more info.
+        Message her on Discord and report the error. Or....
         <br /><br />
-        <button onclick="location.reload()">
-          Retry
-        </button>
         <button onclick="localStorage.setItem('kagerou_config','');location.reload()">
           Reset
-        </button>
-        <button onclick="window.open('../config/','kagerou - Settings','width=800,height=600')">
-          Settings
         </button>
       </div>
     </div>
@@ -282,7 +276,11 @@ window.addEventListener('load', e => {
               <li class="text lang ja en de fr">
                 <u>Nova Developemental</u><br />
                 <u>Discord: Britt#6196</u>
+                <button id="navdisplay">
+                  Click
+                </button>
             </ul>
+           </li>
           <li id="patchnote">
             <h3 class="unsecure-only">
               UNSECURE MODE over http
