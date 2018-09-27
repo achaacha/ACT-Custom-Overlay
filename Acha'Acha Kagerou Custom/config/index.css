@@ -233,6 +233,9 @@ main h3 {
 
   margin: 1rem 0.5rem;
 }
+
+section {display:none;}
+
 main > section {
   display: none;
   width: 100%;
@@ -253,8 +256,6 @@ section.active {
 article {
   margin-bottom: 2rem;
 }
-
-article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-child(7), article:nth-child(8) {display:none;}
 
 section p {
   margin: 0.5rem 0;
