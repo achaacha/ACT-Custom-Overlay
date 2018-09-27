@@ -69,7 +69,7 @@ b {
   display: none;
 }
 
-li[data-page=style],li[data-page=color],li[data-page=width],li[data-page=style],li[data-page=etc],li[data-page=info] { 
+.menu > li[data-page=style],.menu > li[data-page=color],.menu > li[data-page=width],.menu > li[data-page=style],.menu > li[data-page=etc],.menu > li[data-page=info] { 
   display:none; 
 }
 
