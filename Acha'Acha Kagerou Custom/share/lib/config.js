@@ -49,6 +49,19 @@ const CONFIG_DEFAULT = {
       ]
     }, {
       id: 1,
+      label: 'Tank',
+      width: 1,
+      sort: 'tank.damage',
+      col: [
+        'i.icon',
+        'i.name',
+        'deal.per_second',
+        'tank.damage',
+        'tank.heal',
+        'etc.death'
+      ]
+    }, {
+      id: 2,
       label: 'Heal',
       width: 1,
       sort: 'heal.total',
@@ -62,7 +75,7 @@ const CONFIG_DEFAULT = {
         'heal.swing'
       ]
     }, {
-      id: 2,
+      id: 3,
       label: '24',
       width: 3,
       sort: 'deal.total',
