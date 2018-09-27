@@ -256,8 +256,7 @@ main > ul {
 
   padding: 15px 15px;
   font-family: 'Poiret One';
-  font-size: 20px;
-  float: left;
+  font-size: 15px;
 }
 #init-menu > ul li .icon {
   width: 2.25rem !important;
