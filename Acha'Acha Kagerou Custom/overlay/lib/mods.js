@@ -1,18 +1,16 @@
 var jq = jQuery.noConflict();
-var bspan = jq('#init-menu > ul li.button span')
-var nav = jq('nav')
 
 
 
-nav.hide();
+jq('nav > .container').hide();
 
 jq(document).ready(function(){
     jq('#init-menu > ul li.button').click(function(){
-        jq('nav').slideToggle('slow', function() {
-            if (jq(this).is(":visible")) {
-                 bspan.text('Hide');                
+        jq('nav > .container').slideToggle('slow', function() {
+            if (jq(#init-menu > ul li.button).is(":visible")) {
+                 jq('#init-menu > ul li.button span').text('Hide');                
             } else {
-                 bspan.text('Display');                
+                 jq('#init-menu > ul li.button span').text('Display');                
             }        
         });
             
