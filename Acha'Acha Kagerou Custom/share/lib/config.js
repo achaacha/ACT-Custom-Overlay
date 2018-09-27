@@ -15,7 +15,7 @@ const CONFIG_DEFAULT = {
     'nav-bg': 'rgba(0, 0, 0, 0.9)',
     'nav-fg': '#ddd',
     'header-bg': 'rgba(0, 0, 0, 0.5)',
-    'dropdown-bg': 'rgba(31, 31, 31, 0.95)',
+    'dropdown-bg': 'rgba(0, 0, 0, 0.95)',
     'dropdown-fg': '#ddd',
     'content-bg': '', // URL
     'content-bg-color': 'rgba(0, 0, 0, 0.5)',
@@ -35,21 +35,23 @@ const CONFIG_DEFAULT = {
   tabs: [
     {
       id: 0,
-      label: 'DPS',
+      label: 'DPS1',
       width: 1,
       sort: 'deal.total',
       col: [
         'i.icon',
-        'i.name',
-        'deal.pct',
         'deal.per_second',
+        'deal.pct',
+		    'deal.total',
+		    'etc.death',
+        'i.name',
         'deal.critical',
         'deal.direct',
-        'deal.crit_direct'
+		    'deal.crit_direct'
       ]
     }, {
       id: 1,
-      label: 'Tank',
+      label: 'TEST',
       width: 1,
       sort: 'tank.damage',
       col: [
@@ -62,7 +64,7 @@ const CONFIG_DEFAULT = {
       ]
     }, {
       id: 2,
-      label: 'Heal',
+      label: 'Heal1',
       width: 1,
       sort: 'heal.total',
       col: [
@@ -76,7 +78,7 @@ const CONFIG_DEFAULT = {
       ]
     }, {
       id: 3,
-      label: '24',
+      label: 'N/A?',
       width: 3,
       sort: 'deal.total',
       col: [
