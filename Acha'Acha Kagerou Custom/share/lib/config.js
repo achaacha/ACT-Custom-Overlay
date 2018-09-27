@@ -4,7 +4,7 @@ const VERSION = '0.0.01'
 const CODENAME = 'The Beginning'
 
 const CONFIG_DEFAULT = {
-  lang: 'ko',
+  lang: 'en',
   style: {
     // body
     'resize-factor': 1,
@@ -12,7 +12,7 @@ const CONFIG_DEFAULT = {
     'body-font': "'Roboto', 'Source Han Sans', 'Meiryo UI', '맑은 고딕', sans-serif",
     // header / ui
     'nav-opacity': 1,
-    'nav-bg': 'rgba(31, 31, 31, 0.9)',
+    'nav-bg': 'rgba(0, 0, 0, 0.9)',
     'nav-fg': '#ddd',
     'header-bg': 'rgba(0, 0, 0, 0.5)',
     'dropdown-bg': 'rgba(31, 31, 31, 0.95)',
@@ -49,19 +49,6 @@ const CONFIG_DEFAULT = {
       ]
     }, {
       id: 1,
-      label: 'Tank',
-      width: 1,
-      sort: 'tank.damage',
-      col: [
-        'i.icon',
-        'i.name',
-        'deal.per_second',
-        'tank.damage',
-        'tank.heal',
-        'etc.death'
-      ]
-    }, {
-      id: 2,
       label: 'Heal',
       width: 1,
       sort: 'heal.total',
@@ -75,15 +62,17 @@ const CONFIG_DEFAULT = {
         'heal.swing'
       ]
     }, {
-      id: 3,
-      label: '24',
-      width: 3,
-      sort: 'deal.total',
+      id: 2,
+      label: 'ETC',
+      width: 1,
+      sort: 'tank.damage',
       col: [
         'i.icon',
         'i.name',
         'deal.per_second',
-        'deal.swing'
+        'tank.damage',
+        'tank.heal',
+        'etc.death'
       ]
     }
   ],
@@ -131,7 +120,7 @@ const CONFIG_DEFAULT = {
   },
   color: {
     'gauge-default': '#444',
-    'gauge-opacity': '1',
+    'gauge-opacity': '0',
     'position-tank': 'rgb(33, 150, 243)',
     'position-deal': 'rgb(244, 67, 54)',
     'position-heal': 'rgb(139, 195, 74)',
