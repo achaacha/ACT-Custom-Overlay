@@ -1,13 +1,10 @@
 var jq = jQuery.noConflict();
 
+
+    
 jq(document).ready(function(){
-    jq('#init-menu > ul li.button').click(function(){
-        jq('nav').slideToggle(200, function() {
-            if (jq(#init-menu > ul li.button).is(":visible")) {
-                 jq('#init-menu > ul li.button span').text('Hide');                
-            } else {
-                 jq('#init-menu > ul li.button span').text('Display');                
-            }        
-        });
-            
-    });
+
+	jq("#init-menu > ul li.button").hover(function() {
+		jq("#init-menu > ul li.button span").fadeToggle();
+	});
+});
