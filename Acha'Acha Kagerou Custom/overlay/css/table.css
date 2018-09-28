@@ -180,6 +180,7 @@ main > ul {
   width: 100% !important;
   margin: 0 !important;
   height: 3rem;
+  background: rgba(0, 0, 0, 0.5) !important;
   color: #fff
 }
 #button-list > ul {
