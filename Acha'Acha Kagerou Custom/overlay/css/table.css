@@ -173,6 +173,7 @@ main > ul {
 #pheader {position: relative;
   height: 3rem !important;
   width: 100% !important;
+    background: rgba(0, 0, 0, 0.5) !important;
 }
 
 #button-list {
@@ -180,7 +181,6 @@ main > ul {
   width: 100% !important;
   margin: 0 !important;
   height: 3rem;
-  background: rgba(0, 0, 0, 0.5) !important;
   color: #fff
 }
 #button-list > ul {
