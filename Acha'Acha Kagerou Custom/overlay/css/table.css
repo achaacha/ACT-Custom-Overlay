@@ -169,6 +169,88 @@ main > ul {
   -webkit-filter: ;
   filter: ;
 }
+
+#button-list {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  height: 3rem;
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+#button-list > ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 100%;
+}
+#button-list > ul li {
+  position: relative;
+  width: 5rem;
+  margin: 0.25rem;
+  padding: 0 0.25rem;
+  height: calc(100% - 0.5rem);
+
+  overflow: hidden;
+}
+
+#button-list > ul li.button {
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  transition: all 0.5s;
+}
+
+#button-list > ul li.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#button-list > ul li.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#button-list > ul li.button span {
+  padding-right: 25px;
+}
+
+#button-list > ul li.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One'), local('PoiretOne-Regular'), url(https://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8fk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+#button-list > ul > li.text {
+  background: transparent;
+  flex-grow: 1;
+  line-height: 1.25rem;
+  padding: 15px 15px;
+  font-family: 'Poiret One';
+  font-size: 30px;
+}
+#button-list > ul li .icon {
+  width: 2.25rem !important;
+  height: 2.25rem !important;
+  position: absolute;
+  left: 0.25rem;
+  bottom: -0.5rem;
+}
+
 #patchnote {
   display: block !important;
   width: 100% !important;
