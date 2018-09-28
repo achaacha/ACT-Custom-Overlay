@@ -177,14 +177,14 @@ main > ul {
   height: 3rem;
   background: rgba(0, 0, 0, 0.5) !important;
 }
-#button-list > #pheader {
+#button-list > ul {
   display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
   height: 100%;
 }
-#button-list > #pheader li {
+#button-list > ul li {
   position: relative;
   width: 5rem;
   margin: 0.25rem;
@@ -194,7 +194,7 @@ main > ul {
   overflow: hidden;
 }
 
-#button-list > #pheader li.button {
+#button-list > ul li.button {
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
   cursor: pointer;
@@ -202,7 +202,7 @@ main > ul {
   transition: all 0.5s;
 }
 
-#button-list > #pheader li.button span {
+#button-list > ul li.button span {
   cursor: pointer;
   display: inline-block;
   position: relative;
