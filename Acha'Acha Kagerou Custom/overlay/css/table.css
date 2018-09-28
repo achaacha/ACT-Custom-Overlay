@@ -170,8 +170,8 @@ main > ul {
   filter: ;
 }
 
-#pheader {
-  height: 2rem !important;
+#pheader {position: absolute;
+  height: 3rem !important;
   width: 100% !important;
 }
 
