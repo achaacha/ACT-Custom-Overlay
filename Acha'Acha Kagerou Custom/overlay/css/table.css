@@ -170,6 +170,11 @@ main > ul {
   filter: ;
 }
 
+#pheader {
+  height: 2rem;
+  width: 100%;
+}
+
 #button-list {
   display: block !important;
   width: 100% !important;
