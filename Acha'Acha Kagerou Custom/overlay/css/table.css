@@ -19,7 +19,7 @@
 }
 .flex-column-i-class            { width: 2rem; } /* replace-hack only */
 .flex-column-i-owner            { width: 6rem; }
-.flex-column-i-name             { width: 6rem; display: none;}
+.flex-column-i-name             { width: 6rem; }
 .flex-column-deal-total         { width: 4.5rem; }
 .flex-column-deal-per-second    { width: 3.5rem; }
 .flex-column-deal-pct           { width: 2rem; }
@@ -28,13 +28,13 @@
 .flex-column-deal-swing         { width: 2.5rem; }
 .flex-column-deal-miss          { width: 2.5rem; }
 .flex-column-deal-hitfail       { width: 2.5rem; }
-.flex-column-deal-critical      { width: 2.5rem; display: none; }
-.flex-column-deal-direct        { width: 2.5rem; display: none; }
-.flex-column-deal-crit-direct   { width: 2.5rem; display: none; }
+.flex-column-deal-critical      { width: 2.5rem; }
+.flex-column-deal-direct        { width: 2.5rem; }
+.flex-column-deal-crit-direct   { width: 2.5rem; }
 .flex-column-deal-crittypes     { width: 4rem; }
-.flex-column-deal-max           { width: 2.5rem; display: none; }
+.flex-column-deal-max           { width: 2.5rem; }
 .flex-column-deal-maxhit        { width: 7rem; }
-.flex-column-deal-maxskill      { width: 5.5rem; display: none; }
+.flex-column-deal-maxskill      { width: 5.5rem; }
 .flex-column-deal-last10        { width: 3.5rem; }
 .flex-column-deal-last30        { width: 3.5rem; }
 .flex-column-deal-last60        { width: 3.5rem; }
