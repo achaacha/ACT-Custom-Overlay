@@ -45,6 +45,8 @@ const CONFIG_DEFAULT = {
 	'deal.total',
 	'etc.death',
         'i.name',
+	'deal.max',
+	'deal.maxskill',
         'deal.critical',
         'deal.direct',
 	'deal.crit_direct'
