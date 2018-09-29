@@ -254,6 +254,7 @@ main > ul {
   position: absolute;
   left: 0.25rem;
   bottom: -0.5rem;
+  color: #fff;
 }
 
 #patchnote {
