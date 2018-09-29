@@ -7,10 +7,10 @@ jq(document).ready(function(){
         jq("nav").slideToggle(200); 
      });
     
-    jq("[class^='flex-column']").hover(function(){
+    jq("#table > li").hover(function(){
         jq(this).css("display", "none");
         }, function(){
-        jq(this).css("display", "inline-block");
+        jq(this).css("display", "flex");
     });
             
  });
