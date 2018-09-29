@@ -28,6 +28,55 @@
 .class-cnj, .class-whm, .class-sch,
 .class-ast { transition: all .5s !important; }
 
+.flex-column-deal-critical      { display: none !important; }
+.flex-column-deal-direct        { display: none !important; }
+.flex-column-deal-crit-direct   { display: none !important; }
+.flex-column-deal-max           { display: none !important; }
+.flex-column-deal-maxskill      { display: none !important; }
+.flex-column-i-name             { display: none !important; }
+
+
+.flex-column-i-class            { width: 2rem; } /* replace-hack only */
+.flex-column-i-owner            { width: 6rem; }
+.flex-column-i-name             { width: 6rem; }
+.flex-column-deal-total         { width: 4.5rem; }
+.flex-column-deal-per-second    { width: 3.5rem; }
+.flex-column-deal-pct           { width: 2rem; }
+.flex-column-deal-failure       { width: 3rem; }
+.flex-column-deal-accuracy      { width: 3rem; }
+.flex-column-deal-swing         { width: 2.5rem; }
+.flex-column-deal-miss          { width: 2.5rem; }
+.flex-column-deal-hitfail       { width: 2.5rem; }
+.flex-column-deal-critical      { width: 2.5rem; }
+.flex-column-deal-direct        { width: 2.5rem; }
+.flex-column-deal-crit-direct   { width: 2.5rem; }
+.flex-column-deal-crittypes     { width: 4rem; }
+.flex-column-deal-max           { width: 2.5rem; }
+.flex-column-deal-maxhit        { width: 7rem; }
+.flex-column-deal-maxskill      { width: 5.5rem; }
+.flex-column-deal-last10        { width: 3.5rem; }
+.flex-column-deal-last30        { width: 3.5rem; }
+.flex-column-deal-last60        { width: 3.5rem; }
+.flex-column-deal-last180       { width: 3.5rem; }
+.flex-column-tank-damage        { width: 4rem; }
+.flex-column-tank-parry         { width: 2rem; }
+.flex-column-tank-heal          { width: 4rem; }
+.flex-column-tank-block         { width: 2rem; }
+.flex-column-tank-threat-delta  { width: 3.5rem; }
+.flex-column-heal-per-second    { width: 3rem; }
+.flex-column-heal-pct           { width: 2rem; }
+.flex-column-heal-total         { width: 4rem; }
+.flex-column-heal-swing         { width: 2rem; }
+.flex-column-heal-over          { width: 2rem; }
+.flex-column-heal-cure          { width: 2rem; }
+.flex-column-heal-critical      { width: 2rem; }
+.flex-column-heal-max           { width: 2.5rem; }
+.flex-column-heal-maxhit        { width: 7rem; }
+.flex-column-heal-maxskill      { width: 4rem; }
+.flex-column-etc-powerdrain     { width: 4rem; }
+.flex-column-etc-death          { width: 2rem; }
+.flex-column-etc-powerheal      { width: 4rem; }
+
 .class-pgl:hover > .flex-column-deal-critical, .class-mnk:hover > .flex-column-deal-critical, .class-lnc:hover > .flex-column-deal-critical,
 .class-drg:hover > .flex-column-deal-critical, .class-arc:hover > .flex-column-deal-critical, .class-brd:hover > .flex-column-deal-critical,
 .class-rog:hover > .flex-column-deal-critical, .class-nin:hover > .flex-column-deal-critical, .class-acn:hover > .flex-column-deal-critical,
@@ -83,54 +132,33 @@
 .class-cnj:hover > .flex-column-i-name, .class-whm:hover > .flex-column-i-name, .class-sch:hover > .flex-column-i-name,
 .class-ast:hover > .flex-column-i-name {display: inline-block !important;}
 
-.flex-column-deal-critical      { display: none !important; }
-.flex-column-deal-direct        { display: none !important; }
-.flex-column-deal-crit-direct   { display: none !important; }
-.flex-column-deal-max           { display: none !important; }
-.flex-column-deal-maxskill      { display: none !important; }
-.flex-column-i-name             { display: none !important; }
-
-
-.flex-column-i-class            { width: 2rem; } /* replace-hack only */
-.flex-column-i-owner            { width: 6rem; }
-.flex-column-i-name             { width: 6rem; }
-.flex-column-deal-total         { width: 4.5rem; }
-.flex-column-deal-per-second    { width: 3.5rem; }
-.flex-column-deal-pct           { width: 2rem; }
-.flex-column-deal-failure       { width: 3rem; }
-.flex-column-deal-accuracy      { width: 3rem; }
-.flex-column-deal-swing         { width: 2.5rem; }
-.flex-column-deal-miss          { width: 2.5rem; }
-.flex-column-deal-hitfail       { width: 2.5rem; }
-.flex-column-deal-critical      { width: 2.5rem; }
-.flex-column-deal-direct        { width: 2.5rem; }
-.flex-column-deal-crit-direct   { width: 2.5rem; }
-.flex-column-deal-crittypes     { width: 4rem; }
-.flex-column-deal-max           { width: 2.5rem; }
-.flex-column-deal-maxhit        { width: 7rem; }
-.flex-column-deal-maxskill      { width: 5.5rem; }
-.flex-column-deal-last10        { width: 3.5rem; }
-.flex-column-deal-last30        { width: 3.5rem; }
-.flex-column-deal-last60        { width: 3.5rem; }
-.flex-column-deal-last180       { width: 3.5rem; }
-.flex-column-tank-damage        { width: 4rem; }
-.flex-column-tank-parry         { width: 2rem; }
-.flex-column-tank-heal          { width: 4rem; }
-.flex-column-tank-block         { width: 2rem; }
-.flex-column-tank-threat-delta  { width: 3.5rem; }
-.flex-column-heal-per-second    { width: 3rem; }
-.flex-column-heal-pct           { width: 2rem; }
-.flex-column-heal-total         { width: 4rem; }
-.flex-column-heal-swing         { width: 2rem; }
-.flex-column-heal-over          { width: 2rem; }
-.flex-column-heal-cure          { width: 2rem; }
-.flex-column-heal-critical      { width: 2rem; }
-.flex-column-heal-max           { width: 2.5rem; }
-.flex-column-heal-maxhit        { width: 7rem; }
-.flex-column-heal-maxskill      { width: 4rem; }
-.flex-column-etc-powerdrain     { width: 4rem; }
-.flex-column-etc-death          { width: 2rem; }
-.flex-column-etc-powerheal      { width: 4rem; }
+.class-pgl:hover > .flex-column-deal-total, .class-mnk:hover > .flex-column-deal-total, .class-lnc:hover > .flex-column-deal-total,
+.class-drg:hover > .flex-column-deal-total, .class-arc:hover > .flex-column-deal-total, .class-brd:hover > .flex-column-deal-total,
+.class-rog:hover > .flex-column-deal-total, .class-nin:hover > .flex-column-deal-total, .class-acn:hover > .flex-column-deal-total,
+.class-smn:hover > .flex-column-deal-total, .class-thm:hover > .flex-column-deal-total, .class-blm:hover > .flex-column-deal-total,
+.class-mch:hover > .flex-column-deal-total, .class-sam:hover > .flex-column-deal-total, .class-rdm:hover > .flex-column-deal-total,
+.class-gla:hover > .flex-column-deal-total, .class-pld:hover > .flex-column-deal-total, .class-mrd:hover > .flex-column-deal-total,
+.class-war:hover > .flex-column-deal-total, .class-drk:hover > .flex-column-deal-total, .class-gld:hover > .flex-column-deal-total,
+.class-cnj:hover > .flex-column-deal-total, .class-whm:hover > .flex-column-deal-total, .class-sch:hover > .flex-column-deal-total,
+.class-ast:hover > .flex-column-deal-total,
+.class-pgl:hover > .flex-column-deal-per-second, .class-mnk:hover > .flex-column-deal-per-second, .class-lnc:hover > .flex-column-deal-per-second,
+.class-drg:hover > .flex-column-deal-per-second, .class-arc:hover > .flex-column-deal-per-second, .class-brd:hover > .flex-column-deal-per-second,
+.class-rog:hover > .flex-column-deal-per-second, .class-nin:hover > .flex-column-deal-per-second, .class-acn:hover > .flex-column-deal-per-second,
+.class-smn:hover > .flex-column-deal-per-second, .class-thm:hover > .flex-column-deal-per-second, .class-blm:hover > .flex-column-deal-per-second,
+.class-mch:hover > .flex-column-deal-per-second, .class-sam:hover > .flex-column-deal-per-second, .class-rdm:hover > .flex-column-deal-per-second,
+.class-gla:hover > .flex-column-deal-per-second, .class-pld:hover > .flex-column-deal-per-second, .class-mrd:hover > .flex-column-deal-per-second,
+.class-war:hover > .flex-column-deal-per-second, .class-drk:hover > .flex-column-deal-per-second, .class-gld:hover > .flex-column-deal-per-second,
+.class-cnj:hover > .flex-column-deal-per-second, .class-whm:hover > .flex-column-deal-per-second, .class-sch:hover > .flex-column-deal-per-second,
+.class-ast:hover > .flex-column-deal-per-second,
+.class-pgl:hover > .flex-column-deal-pct, .class-mnk:hover > .flex-column-deal-pct, .class-lnc:hover > .flex-column-deal-pct,
+.class-drg:hover > .flex-column-deal-pct, .class-arc:hover > .flex-column-deal-pct, .class-brd:hover > .flex-column-deal-pct,
+.class-rog:hover > .flex-column-deal-pct, .class-nin:hover > .flex-column-deal-pct, .class-acn:hover > .flex-column-deal-pct,
+.class-smn:hover > .flex-column-deal-pct, .class-thm:hover > .flex-column-deal-pct, .class-blm:hover > .flex-column-deal-pct,
+.class-mch:hover > .flex-column-deal-pct, .class-sam:hover > .flex-column-deal-pct, .class-rdm:hover > .flex-column-deal-pct,
+.class-gla:hover > .flex-column-deal-pct, .class-pld:hover > .flex-column-deal-pct, .class-mrd:hover > .flex-column-deal-pct,
+.class-war:hover > .flex-column-deal-pct, .class-drk:hover > .flex-column-deal-pct, .class-gld:hover > .flex-column-deal-pct,
+.class-cnj:hover > .flex-column-deal-pct, .class-whm:hover > .flex-column-deal-pct, .class-sch:hover > .flex-column-deal-pct,
+.class-ast:hover > .flex-column-deal-pct { display: none !important; }
 
 .pet-merged .flex-column-i-owner {
   display: none !important;
