@@ -18,12 +18,23 @@
   flex-basis: 0%;
 }
 
+.class-pgl, .class-mnk, .class-lnc,
+.class-drg, .class-arc, .class-brd,
+.class-rog, .class-nin, .class-acn,
+.class-smn, .class-thm, .class-blm,
+.class-mch, .class-sam, .class-rdm,
+.class-gla, .class-pld, .class-mrd,
+.class-war, .class-drk, .class-gld,
+.class-cnj, .class-whm, .class-sch,
+.class-ast { transition: all .5s !important;}
+
 .flex-column-deal-critical      { display: none !important; }
 .flex-column-deal-direct        { display: none !important; }
 .flex-column-deal-crit-direct   { display: none !important; }
 .flex-column-deal-max           { display: none !important; }
 .flex-column-deal-maxskill      { display: none !important; }
 .flex-column-i-name             { display: none !important; }
+
 
 .flex-column-i-class            { width: 2rem; } /* replace-hack only */
 .flex-column-i-owner            { width: 6rem; }
