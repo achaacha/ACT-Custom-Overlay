@@ -13,7 +13,7 @@ const CONFIG_DEFAULT = {
     // header / ui
     'nav-opacity': 1,
     'nav-bg': 'rgba(0, 0, 0, 0.9)',
-    'nav-fg': '#ddd',
+    'nav-fg': '#000',
     'header-bg': 'rgba(0, 0, 0, 0.5)',
     'dropdown-bg': 'rgba(0, 0, 0, 0.95)',
     'dropdown-fg': '#000',
@@ -35,7 +35,7 @@ const CONFIG_DEFAULT = {
   tabs: [
     {
       id: 0,
-      label: 'DPS1',
+      label: 'DPS',
       width: 1,
       sort: 'deal.total',
       col: [
