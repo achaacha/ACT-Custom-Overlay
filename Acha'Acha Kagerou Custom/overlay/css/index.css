@@ -7,7 +7,7 @@ html {
 }
 body {
   font-family: 'Roboto', 'Source Han Sans', 'Meiryo UI', '맑은 고딕', sans-serif;
-  opacity: 1;
+  opacity: 0.5;
   margin: 0rem !important; /* for shadow */
   height: calc(100% - 0rem * 2);
   
