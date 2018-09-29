@@ -8,7 +8,7 @@ jq(document).ready(function(){
      });
     
     jq("#table > li").hover(function(){
-        jq(this).hide().fadeToggle();
+        jq(this).hide();
     });
             
  });
