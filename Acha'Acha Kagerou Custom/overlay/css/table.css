@@ -17,6 +17,14 @@
   flex-grow: 10;
   flex-basis: 0%;
 }
+
+.flex-column-deal-critical      { display: none !important; }
+.flex-column-deal-direct        { display: none !important; }
+.flex-column-deal-crit-direct   { display: none !important; }
+.flex-column-deal-max           { display: none !important; }
+.flex-column-deal-maxskill      { display: none !important; }
+.flex-column-i-name             { display: none !important; }
+
 .flex-column-i-class            { width: 2rem; } /* replace-hack only */
 .flex-column-i-owner            { width: 6rem; }
 .flex-column-i-name             { width: 6rem; }
