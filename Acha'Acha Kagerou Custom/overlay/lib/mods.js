@@ -6,5 +6,11 @@ jq(document).ready(function(){
         var navb = jq(this);
         jq("nav").slideToggle(200); 
      });
+    
+    jq(".class-mnk").hover(function(){
+        $(this).css("display", "none");
+        }, function(){
+        $(this).css("display", "inline-block");
+    });
             
  });
