@@ -26,7 +26,7 @@
 .class-gla, .class-pld, .class-mrd,
 .class-war, .class-drk, .class-gld,
 .class-cnj, .class-whm, .class-sch,
-.class-ast { transition: all .5s !important; }
+.class-ast { transition: all .5s ease !important; }
 
 .flex-column-deal-critical      { display: none !important; }
 .flex-column-deal-direct        { display: none !important; }
