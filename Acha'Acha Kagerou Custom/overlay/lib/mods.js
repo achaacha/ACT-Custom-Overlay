@@ -8,9 +8,7 @@ jq(document).ready(function(){
      });
     
     jq("#table > li").hover(function(){
-        jq(this).css("display", "none");
-        }, function(){
-        jq(this).css("display", "flex");
+        jq(this).hide().fadeToggle();
     });
             
  });
