@@ -7,7 +7,11 @@ jq(document).ready(function(){
         jq("nav").slideToggle(200); 
      });
     
-    jq("#table > li").hover(function(){
+    jq("#table[data-width='2'] > li").hover(function(){
+        jq(this).fadeOut();
+    });
+    
+        jq("#table[data-width='3'] > li").hover(function(){
         jq(this).fadeOut();
     });
             
