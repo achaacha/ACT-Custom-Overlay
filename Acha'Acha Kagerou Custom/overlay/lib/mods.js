@@ -7,10 +7,10 @@ jq(document).ready(function(){
         jq("nav").slideToggle(200); 
      });
     
-    jq(".class-mnk").hover(function(){
-        $(this).css("display", "none");
+    jq("[class^='flex-column']").hover(function(){
+        jq(this).css("display", "none");
         }, function(){
-        $(this).css("display", "inline-block");
+        jq(this).css("display", "inline-block");
     });
             
  });
