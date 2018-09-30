@@ -231,7 +231,7 @@
 
 main {
   font-size: 0.75rem;
-  opacity: 0.5;
+  opacity: 0.8;
   position: relative;
   height: 100%;
   max-height: calc(100% - 0rem - 2rem);
